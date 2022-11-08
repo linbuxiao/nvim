@@ -20,6 +20,8 @@ local servers = {
   -- rust_analyzer = require("lsp.config.rust"),
   -- yamlls = require("lsp.config.yamlls"),
   remark_ls = require("lsp.config.markdown"),
+  -- golang
+  gopls = require('lsp.config.golang')
 }
 
 for name, config in pairs(servers) do
